@@ -2,10 +2,7 @@ import puppeteer from 'puppeteer'
 import fs from 'fs/promises'
 ;(async function handleDynamicWebPage() {
   const URL = 'https://e-consulta.sunat.gob.pe/cl-at-ittipcam/tcS01Alias'
-  const browser = await puppeteer.launch({
-    headless: false,
-    slowMo: 200,
-  })
+  const browser = await puppeteer.launch({ headless: false })
   const page = await browser.newPage()
   await page.goto(URL, { waitUntil: 'networkidle2' })
   await page.waitForSelector('.calendar-day')
