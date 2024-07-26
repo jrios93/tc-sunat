@@ -4,6 +4,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import cron from 'node-cron'
 import { exec } from 'child_process'
+import cors from 'cors'; 
 
 cron.schedule('0 * * * *', () => {
   // Ejecutar cada hora
