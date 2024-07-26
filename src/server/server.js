@@ -40,7 +40,7 @@ app.get('/tipo-cambio', async (req, res) => {
     const exchangeRate = JSON.parse(data)
     const today = new Date().getDate()
 
-    const todayExchangeRate = exchangeRate.find(tc => tc.date == today)
+    const todayExchangeRate = exchangeRate.find(tc => tc.date === today)
 
     if (todayExchangeRate) {
       res.json(todayExchangeRate)

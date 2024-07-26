@@ -15,9 +15,13 @@ import fs from 'fs/promises'
       const dateElement = day.querySelector('.date')
       const buysElement = day.querySelector('.normal-all-day')
       const sellElement = day.querySelector('.pap-all-day')
-      const date = dateElement ? dateElement.innerText : null
-      const buys = buysElement ? buysElement.innerText : null
-      const sell = sellElement ? sellElement.innerText : null
+      const getNumber = text => {
+        const match = text.match(/[\d,.]+/)
+        return match ? parseFloat(match[0].replace(',', '')) : null
+      }
+      const date = dateElement ? getNumber(dateElement.innerText) : null
+      const buys = buysElement ? getNumber(buysElement.innerText) : null
+      const sell = sellElement ? getNumber(sellElement.innerText) : null
       return {
         date,
         buys,
@@ -26,7 +30,7 @@ import fs from 'fs/promises'
     })
     return data
   })
-  
+
   console.log(result)
   await fs.writeFile('data/tc.json', JSON.stringify(result, null, 2))
 

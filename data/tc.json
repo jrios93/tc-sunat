@@ -1,176 +1,176 @@
 [
   {
-    "date": "30",
+    "date": 30,
     "buys": null,
     "sell": null
   },
   {
-    "date": "1",
-    "buys": "Compra 3.827",
-    "sell": "Venta 3.837"
+    "date": 1,
+    "buys": 3.827,
+    "sell": 3.837
   },
   {
-    "date": "2",
-    "buys": "Compra 3.834",
-    "sell": "Venta 3.851"
+    "date": 2,
+    "buys": 3.834,
+    "sell": 3.851
   },
   {
-    "date": "3",
-    "buys": "Compra 3.826",
-    "sell": "Venta 3.833"
+    "date": 3,
+    "buys": 3.826,
+    "sell": 3.833
   },
   {
-    "date": "4",
-    "buys": "Compra 3.793",
-    "sell": "Venta 3.802"
+    "date": 4,
+    "buys": 3.793,
+    "sell": 3.802
   },
   {
-    "date": "5",
-    "buys": "Compra 3.788",
-    "sell": "Venta 3.802"
+    "date": 5,
+    "buys": 3.788,
+    "sell": 3.802
   },
   {
-    "date": "6",
-    "buys": "Compra 3.788",
-    "sell": "Venta 3.797"
+    "date": 6,
+    "buys": 3.788,
+    "sell": 3.797
   },
   {
-    "date": "7",
-    "buys": "Compra 3.788",
-    "sell": "Venta 3.797"
+    "date": 7,
+    "buys": 3.788,
+    "sell": 3.797
   },
   {
-    "date": "8",
-    "buys": "Compra 3.788",
-    "sell": "Venta 3.797"
+    "date": 8,
+    "buys": 3.788,
+    "sell": 3.797
   },
   {
-    "date": "9",
-    "buys": "Compra 3.782",
-    "sell": "Venta 3.797"
+    "date": 9,
+    "buys": 3.782,
+    "sell": 3.797
   },
   {
-    "date": "10",
-    "buys": "Compra 3.781",
-    "sell": "Venta 3.789"
+    "date": 10,
+    "buys": 3.781,
+    "sell": 3.789
   },
   {
-    "date": "11",
-    "buys": "Compra 3.774",
-    "sell": "Venta 3.785"
+    "date": 11,
+    "buys": 3.774,
+    "sell": 3.785
   },
   {
-    "date": "12",
-    "buys": "Compra 3.766",
-    "sell": "Venta 3.771"
+    "date": 12,
+    "buys": 3.766,
+    "sell": 3.771
   },
   {
-    "date": "13",
-    "buys": "Compra 3.729",
-    "sell": "Venta 3.740"
+    "date": 13,
+    "buys": 3.729,
+    "sell": 3.74
   },
   {
-    "date": "14",
-    "buys": "Compra 3.729",
-    "sell": "Venta 3.740"
+    "date": 14,
+    "buys": 3.729,
+    "sell": 3.74
   },
   {
-    "date": "15",
-    "buys": "Compra 3.729",
-    "sell": "Venta 3.740"
+    "date": 15,
+    "buys": 3.729,
+    "sell": 3.74
   },
   {
-    "date": "16",
-    "buys": "Compra 3.719",
-    "sell": "Venta 3.733"
+    "date": 16,
+    "buys": 3.719,
+    "sell": 3.733
   },
   {
-    "date": "17",
-    "buys": "Compra 3.714",
-    "sell": "Venta 3.725"
+    "date": 17,
+    "buys": 3.714,
+    "sell": 3.725
   },
   {
-    "date": "18",
-    "buys": "Compra 3.715",
-    "sell": "Venta 3.723"
+    "date": 18,
+    "buys": 3.715,
+    "sell": 3.723
   },
   {
-    "date": "19",
-    "buys": "Compra 3.728",
-    "sell": "Venta 3.735"
+    "date": 19,
+    "buys": 3.728,
+    "sell": 3.735
   },
   {
-    "date": "20",
-    "buys": "Compra 3.736",
-    "sell": "Venta 3.743"
+    "date": 20,
+    "buys": 3.736,
+    "sell": 3.743
   },
   {
-    "date": "21",
-    "buys": "Compra 3.736",
-    "sell": "Venta 3.743"
+    "date": 21,
+    "buys": 3.736,
+    "sell": 3.743
   },
   {
-    "date": "22",
-    "buys": "Compra 3.736",
-    "sell": "Venta 3.743"
+    "date": 22,
+    "buys": 3.736,
+    "sell": 3.743
   },
   {
-    "date": "23",
-    "buys": "Compra 3.749",
-    "sell": "Venta 3.758"
+    "date": 23,
+    "buys": 3.749,
+    "sell": 3.758
   },
   {
-    "date": "24",
-    "buys": "Compra 3.749",
-    "sell": "Venta 3.758"
+    "date": 24,
+    "buys": 3.749,
+    "sell": 3.758
   },
   {
-    "date": "25",
-    "buys": "Compra 3.769",
-    "sell": "Venta 3.778"
+    "date": 25,
+    "buys": 3.769,
+    "sell": 3.778
   },
   {
-    "date": "26",
-    "buys": "Compra 3.757",
-    "sell": "Venta 3.764"
+    "date": 26,
+    "buys": 3.757,
+    "sell": 3.764
   },
   {
-    "date": "27",
+    "date": 27,
     "buys": null,
     "sell": null
   },
   {
-    "date": "28",
+    "date": 28,
     "buys": null,
     "sell": null
   },
   {
-    "date": "29",
+    "date": 29,
     "buys": null,
     "sell": null
   },
   {
-    "date": "30",
+    "date": 30,
     "buys": null,
     "sell": null
   },
   {
-    "date": "31",
+    "date": 31,
     "buys": null,
     "sell": null
   },
   {
-    "date": "1",
+    "date": 1,
     "buys": null,
     "sell": null
   },
   {
-    "date": "2",
+    "date": 2,
     "buys": null,
     "sell": null
   },
   {
-    "date": "3",
+    "date": 3,
     "buys": null,
     "sell": null
   }
