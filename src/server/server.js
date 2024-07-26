@@ -3,22 +3,22 @@ import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import cron from 'node-cron'
-import {exec} from 'child_process'
+import { exec } from 'child_process'
 
-cron.schedule('0 * * * *', () => {  // Ejecutar cada hora
-    exec('npm run scrape', (error, stdout, stderr) => {
-      if (error) {
-        console.error(`Error ejecutando el script: ${error.message}`);
-        return;
-      }
-      if (stderr) {
-        console.error(`stderr: ${stderr}`);
-        return;
-      }
-      console.log(`stdout: ${stdout}`);
-    });
-  });
-
+cron.schedule('0 * * * *', () => {
+  // Ejecutar cada hora
+  exec('npm run scrape', (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error ejecutando el script: ${error.message}`)
+      return
+    }
+    if (stderr) {
+      console.error(`stderr: ${stderr}`)
+      return
+    }
+    console.log(`stdout: ${stdout}`)
+  })
+})
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -26,6 +26,8 @@ const __dirname = path.dirname(__filename)
 const app = express()
 const PORT = 3000
 const DATA_PATH = path.join(__dirname, '../../data/tc.json')
+
+app.use(cors())
 
 app.get('/', (req, res) => {
   res.send('El servidor está funcionando correctamente.')
